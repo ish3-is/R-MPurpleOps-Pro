@@ -161,7 +161,6 @@ TELEGRAM_BOT_TOKEN=<TELEGRAM_BOT_TOKEN>
 TELEGRAM_CHAT_ID=<TELEGRAM_CHAT_ID>
 ```
 
-> ⚠️ Never commit the `.env` file or real credentials to GitHub.
 
 ### 6. Verify Python Installation
 ```bash
