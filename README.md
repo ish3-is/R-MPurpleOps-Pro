@@ -5,8 +5,8 @@
 PurpleOps Pro is an advanced cybersecurity assessment and security operations platform designed to combine **Purple Team attack simulation, SIEM monitoring, EDR live response, threat detection, automated active response, and security reporting** into a unified Streamlit-based dashboard.
 
 The platform integrates **Wazuh SIEM/XDR**, **Velociraptor EDR**, **OpenSearch**, endpoint telemetry, MITRE ATT&CK mapping, automated response capabilities, and PDF reporting to provide an end-to-end security assessment environment.
-![Uploading ChatGPT Image 7 أغسطس 2026، 10_52_23 م.png…]()
 
+<img width="1536" height="1024" alt="pp" src="https://github.com/user-attachments/assets/a6cc5b45-e34b-4234-b3ed-6231f75e3ef0" />
 ---
 
 ## 🚀 Key Features
