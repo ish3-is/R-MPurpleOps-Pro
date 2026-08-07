@@ -1,5 +1,4 @@
-<img width="1536" height="1024" alt="pp3" src="https://github.com/user-attachments/assets/fff3aca4-cb07-4463-b0cf-0a330378f4f6" />
-﻿# 🛡️ PurpleOps Pro
+# 🛡️ PurpleOps Pro
 
 > **Automated Purple Team Security Assessment Platform**
 
