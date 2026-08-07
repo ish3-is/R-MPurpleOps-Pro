@@ -485,34 +485,8 @@ For production deployments:
 ## 🧪 Purple Team Workflow
 
 PurpleOps Pro follows an iterative Purple Team security workflow:
+<img width="1024" height="1536" alt="pp5" src="https://github.com/user-attachments/assets/bfb265fb-70f7-4ca2-9d13-b7e267404b79" />
 
-```
-1. Plan
-   ↓
-2. Select MITRE ATT&CK Technique
-   ↓
-3. Simulate Attack
-   ↓
-4. Generate Endpoint Telemetry
-   ↓
-5. Wazuh Detection
-   ↓
-6. Alert Analysis
-   ↓
-7. Velociraptor Investigation
-   ↓
-8. Active Response
-   ↓
-9. Measure Detection
-   ↓
-10. Generate Security Report
-   ↓
-11. Improve Detection Rules
-   ↓
-12. Repeat
-```
-
----
 
 ## 🎓 Academic Alignment
 
