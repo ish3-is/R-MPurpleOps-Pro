@@ -7,7 +7,6 @@ PurpleOps Pro is an advanced cybersecurity assessment and security operations pl
 The platform integrates **Wazuh SIEM/XDR**, **Velociraptor EDR**, **OpenSearch**, endpoint telemetry, MITRE ATT&CK mapping, automated response capabilities, and PDF reporting to provide an end-to-end security assessment environment.
 
 <img width="1536" height="1024" alt="pp" src="https://github.com/user-attachments/assets/a6cc5b45-e34b-4234-b3ed-6231f75e3ef0" />
----
 
 ## 🚀 Key Features
 
@@ -30,52 +29,9 @@ The platform integrates **Wazuh SIEM/XDR**, **Velociraptor EDR**, **OpenSearch**
 
 ## 🏗️ System Architecture
 
-```text
-                         ┌──────────────────────────┐
-                         │      PurpleOps Pro       │
-                         │    Streamlit Dashboard   │
-                         └────────────┬─────────────┘
-                                      │
-              ┌───────────────────────┼────────────────────────┐
-              │                       │                        │
-              ▼                       ▼                        ▼
-      ┌───────────────┐      ┌────────────────┐       ┌────────────────┐
-      │ Attack        │      │ Live Alerts    │       │ EDR Live       │
-      │ Simulation    │      │ & Detection    │       │ Response       │
-      └───────┬───────┘      └───────┬────────┘       └───────┬────────┘
-              │                       │                        │
-              ▼                       ▼                        ▼
-      ┌────────────────────────────────────────────────────────────────┐
-      │                         Security Layer                          │
-      │                                                                  │
-      │        Wazuh SIEM/XDR       Velociraptor EDR       OpenSearch   │
-      └───────────────────────────────┬──────────────────────────────────┘
-                                      │
-                    ┌─────────────────┼─────────────────┐
-                    │                 │                 │
-                    ▼                 ▼                 ▼
-             ┌────────────┐    ┌────────────┐    ┌────────────┐
-             │ Windows 11 │    │ Linux      │    │ Amazon     │
-             │ Endpoint   │    │ Endpoint   │    │ Linux 2023 │
-             └─────┬──────┘    └─────┬──────┘    └────────────┘
-                   │                 │
-                   ▼                 ▼
-              ┌─────────┐       ┌─────────┐
-              │ Sysmon  │       │ Auditd  │
-              └─────────┘       └─────────┘
+<img width="1536" height="1024" alt="pp2" src="https://github.com/user-attachments/assets/32e5d43f-4287-41db-8511-ca18beee7cd2" />
 
-                         ┌──────────────────────┐
-                         │   Active Response    │
-                         │  Block / Unblock IP  │
-                         └──────────┬───────────┘
-                                    │
-                                    ▼
-                              ┌────────────┐
-                              │ iptables   │
-                              └────────────┘
-```
 
----
 
 ## 💻 Technology Stack
 
