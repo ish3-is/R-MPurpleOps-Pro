@@ -1,3 +1,4 @@
+<img width="1536" height="1024" alt="pp3" src="https://github.com/user-attachments/assets/fff3aca4-cb07-4463-b0cf-0a330378f4f6" />
 ﻿# 🛡️ PurpleOps Pro
 
 > **Automated Purple Team Security Assessment Platform**
@@ -34,6 +35,7 @@ The platform integrates **Wazuh SIEM/XDR**, **Velociraptor EDR**, **OpenSearch**
 
 
 ## 💻 Technology Stack
+<img width="1536" height="1024" alt="pp3" src="https://github.com/user-attachments/assets/307cc404-f629-4c78-8c4f-d4e73c75edbd" />
 
 | Category | Technologies |
 |---|---|
@@ -48,6 +50,7 @@ The platform integrates **Wazuh SIEM/XDR**, **Velociraptor EDR**, **OpenSearch**
 ---
 
 ## 🎯 MITRE ATT&CK Coverage
+<img width="1536" height="1024" alt="pp4" src="https://github.com/user-attachments/assets/7a70b426-6f38-45ab-9f7e-51ee5131c224" />
 
 | Tactic | Technique ID | Technique Name | Detection Status |
 |---|---|---|---|
@@ -102,8 +105,8 @@ The following ports may be required depending on the deployment architecture:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/purpleops-pro.git
-cd purpleops-pro
+git clone https://github.com/ish3-is/R-MPurpleOps-Pro.git
+cd R-MPurpleOps-Pro
 ```
 
 ### 2. Create Python Virtual Environment
